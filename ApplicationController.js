@@ -1,6 +1,5 @@
-import DataController from './DataController.js';
+import ProjectRepository from './ProjectRepository.js';
+import TodoRepository from './TodoRepository.js';
 
-const dataController = new DataController();
-
-dataController.createProject("lol");
-
+const projectRepository = new ProjectRepository();
+const todoRepository = new TodoRepository();

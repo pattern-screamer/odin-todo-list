@@ -1,5 +1,4 @@
 export default class Todo {
-  #id;
   #title;
   #description;
   #dueDate;
